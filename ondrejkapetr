@@ -1,0 +1,10 @@
+import random
+
+num = random.randint(1, 500)
+print("Random number:", num)
+if num < 250:
+    print("Not quite there yet")
+if num == 250:
+    print("Right there")
+if num > 250:
+    print("Too far")
